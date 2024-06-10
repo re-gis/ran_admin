@@ -1,0 +1,17 @@
+{
+  "name": "default",
+  "type": "postgres",
+  "host": "127.0.0.1",
+  "port": 5432,
+  "username": "postgres",
+  "password": "Password@2001",
+  "database": "rwanda_relational",
+  "synchronize": true,
+  "logging": true,
+  "entities": ["dist/models/*.js"],
+  "migrations": ["migrations/**/*.js"],
+  "cli": {
+    "entitiesDir": "entities",
+    "migrationsDir": "migrations"
+  }
+}
