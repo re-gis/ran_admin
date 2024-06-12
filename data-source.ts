@@ -8,10 +8,10 @@ import Village from "./models/village";
 
 export const AppDataSource = new DataSource({
   type: "postgres",
-  host: "127.0.0.1",
+  host: "194.163.167.131",
   port: 5432,
   username: "postgres",
-  password: "Password@2001",
+  password: "@KPServer!4U",
   database: "rwanda_relational",
   synchronize: true,
   logging: true,
