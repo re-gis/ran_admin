@@ -5,7 +5,7 @@ import {
   seedProvinces,
   seedSectors,
   seedVillages,
-} from "../controllers/seed.controller";
+} from "../serviceImpl/seed.controller";
 export const seedRouters = express.Router();
 
 seedRouters.post("/provinces", seedProvinces);

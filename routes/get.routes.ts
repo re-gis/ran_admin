@@ -5,7 +5,7 @@ import {
   getProvinces,
   getSectors,
   getVillages,
-} from "../controllers/get.controller";
+} from "../serviceImpl/get.controller";
 export const getRouters = express.Router();
 
 getRouters.get("/provinces", getProvinces);
