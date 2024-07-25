@@ -14,6 +14,7 @@ export default class Cell {
   @PrimaryGeneratedColumn()
   id!: number;
 
+  
   @Column({ type: "varchar", nullable: false })
   name;
 
